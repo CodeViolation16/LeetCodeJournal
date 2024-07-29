@@ -11,4 +11,5 @@ class Solution:
                     max_profit = max(max_profit, profit)
 
         return max_profit if max_profit > float("-inf") else 0
+# time complexity: O(n^2) 
 
